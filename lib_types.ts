@@ -41,3 +41,31 @@ export type PlayerSummary = {
     avgAVG: number;
   };
 };
+
+export type TeamSeasonSummary = {
+  season: number;
+  team: string;
+  players: number;
+  avgAVG: number;
+  avgOBP: number;
+  avgSLG: number;
+  avgOPS: number;
+  totalH: number;
+  totalAB: number;
+  totalR: number;
+  totalHR: number;
+  totalRBI: number;
+  totalSB: number;
+};
+
+export type StandingsRow = {
+  league: string;
+  team: string;
+  wins: number;
+  losses: number;
+  gb: string;
+  pf: number;
+  pa: number;
+  divisionRecord: string;
+  intraleagueRecord: string;
+};
