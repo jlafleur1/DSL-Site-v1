@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-950 antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.stat-card {
+  @apply rounded-3xl border border-slate-200 bg-white shadow-sm;
+}
+
+.soft-panel {
+  @apply rounded-[2rem] border border-slate-200 bg-white shadow-sm;
+}
+
+.section-title {
+  @apply text-xl font-semibold tracking-tight text-slate-950;
+}
+
+.muted {
+  @apply text-sm text-slate-500;
+}
